@@ -1,0 +1,64 @@
+:root {
+    /* text colors (txt-cl) */
+    --basic-txt-color: #2e2f42
+  
+    /* background-colors (bg-cl) */
+    --basic-bg-cl: #ffffff
+    --secondary-bg-cl: #2e2f42
+    --third-grey-bg-cl: #f4f4fd
+  
+    /* fonts */
+    --basic-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+  }
+  
+  
+  
+  /* Сommon styles */
+  body {
+      background-color: var(--basic-bg-cl)
+  }
+  
+  /* Header section */
+  
+  
+  /* Hero */
+  .hero {
+   background-color: var(--secondary-bg-cl);
+  }
+  
+  /* About us section */
+  
+  /* Benefits section */
+  
+  /* Team section */
+  
+  /* Footer section */
+  
+  /* Селекторы тега */
+  
+  
+  
+  
+  
+  /* 
+  Основной фон белый background: #FFFFFF; 
+  Фон серый CLOUD #F4F4FD
+  Фон темно синий NAVY BLUE #2E2F42
+  
+  Цвет текста SLATE #434455
+  Цвет лого синий IRIS #4D5AE5
+  */
+  
+  /* :root {
+      --color-iris: #4d5ae5;
+      --color-ocean: #404bbf;
+      --color-navy-blue: #2e2f42;
+      --color-green: #31d0aa;
+      --color-slate: #434455;
+      --color-light-slate: #8e8f99;
+      --color-cornflower: #e7e9fc;
+      --color-cloud: #f4f4fd;
+      --color-navy-blue-modal: #2e2f42;
+      --color-grey: #2e2f42;
+  } */

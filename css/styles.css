@@ -1,0 +1,46 @@
+:root {
+  /* text colors (txt-cl) */
+  --basic-txt-color: #2e2f42;
+  --secondary-txt-color: #434455;
+
+
+  /* background-colors (bg-cl) */
+  --basic-bg-cl: #ffffff;
+  --secondary-bg-cl: #2e2f42;
+  --third-grey-bg-cl: #f4f4fd;
+
+  /* fonts */
+  --basic-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+}
+
+
+
+/* Сommon styles */
+body {
+	background-color: var(--basic-bg-cl);
+}
+
+/* Header section */
+
+
+/* Hero */
+.hero {
+ background-color: var(--secondary-bg-cl);
+}
+
+/* About us section */
+
+/* Benefits section */
+
+/* Team section */
+.team {
+	background-color: var(#f4f4fd);
+}
+
+
+/* Footer section */
+
+/* Селекторы тега */
+
+
