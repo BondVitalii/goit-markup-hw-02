@@ -1,13 +1,20 @@
 :root {
-  /* text colors (txt-cl) */
-  --basic-txt-color: #2e2f42;
-  --secondary-txt-color: #434455;
-
-
   /* background-colors (bg-cl) */
   --basic-bg-cl: #ffffff;
   --secondary-bg-cl: #2e2f42;
   --third-grey-bg-cl: #f4f4fd;
+
+
+  /* text colors (txt-cl) */
+  --basic-txt-color: #2e2f42;
+  --secondary-txt-color: #434455;
+  --white-txt-color: #ffffff;
+  --footer-light-txt-color: #e7e9fc;
+  --btn-filter-txt-color: #4d5ae5;
+  --btn-pressed-txt-color: #404BBF;
+  --logo-blue-txt-color: #4d5ae5;
+  --logo-light-txt-color: #f4f4fd;
+
 
   /* fonts */
   --basic-font: Roboto, sans-serif;
@@ -19,9 +26,22 @@
 /* Сommon styles */
 body {
 	background-color: var(--basic-bg-cl);
+  font-family: var(--basic-font);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
 }
 
 /* Header section */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+
 
 
 /* Hero */
@@ -35,11 +55,14 @@ body {
 
 /* Team section */
 .team {
-	background-color: var(#f4f4fd);
+	background-color: var(--third-grey-bg-cl);
 }
 
 
 /* Footer section */
+.footer {
+  background-color: var(--secondary-bg-cl);
+}
 
 /* Селекторы тега */
 
