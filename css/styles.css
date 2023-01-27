@@ -23,7 +23,9 @@
   --secondary-font: Raleway, sans-serif;
 }
 
-/* Сommon styles */
+/*|===== Общие CSS =====|*/
+
+/* СOMMON STYLES */
 body {
 	background-color: var(--basic-white-bg-cl);
 
@@ -92,6 +94,8 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/*|===== Индивидуальные CSS =====|*/
 
 /* HEADER SECTION */
 .logo-site {
